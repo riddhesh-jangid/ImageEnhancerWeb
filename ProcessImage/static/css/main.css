@@ -1,0 +1,76 @@
+body
+{
+    background-color: white;    
+}
+
+h1{
+    color: black;
+    margin-left: 20px;
+    margin-bottom: 5px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+h4{
+    color: black;
+    font-family: 'Gentium Book Plus', serif;
+    font-size: 30px;
+    margin-left: 25px;
+}
+
+p{
+    margin-left: 20px;
+}
+
+form{
+    margin-left: 25px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: white;
+}
+
+.title_div
+{
+    height: 10vh;
+    width: 100vw;
+}
+
+.main_div
+{
+    height: 90vh;
+    width: 100vw;
+
+}
+
+.image_container{
+    max-width:100%;
+    max-height:100%;
+}
+
+img{
+    max-width:80%;
+    max-height:80%;
+    margin: 15px;
+    border-style: solid;
+    border-width: 5px;    
+    border-color: black;
+}
+
+.light_image
+{
+    border-color: rgba(236, 236, 236, 0.4);
+}
+
+.resolution_image
+{
+    border-color: rgba(236, 236, 236, 0.4);
+}
+
+.light_div{
+
+    padding: 10px;
+}
+
+.resolution_div{
+
+    padding: 10px;
+}

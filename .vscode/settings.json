@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/202b5d40-7220-44b0-9106-49d9279e28d6/microsoft.web/sites/subscriptions/202b5d40-7220-44b0-9106-49d9279e28d6/resourceGroups/appsvc_linux_centralus_basic/providers/Microsoft.Web/sites/ImagEnhancerWeb",
+    "appService.deploySubpath": "."
+}

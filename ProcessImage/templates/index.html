@@ -1,0 +1,111 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html>
+    <head>
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--Bootstrap-->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>    
+
+        <!-- including css -->
+        <link rel="stylesheet" type="text/css" href="{% static 'css/main.css' %}"/>
+
+        <!--Google Fonts-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Gentium+Book+Plus&display=swap" rel="stylesheet">
+
+    </head>
+    <body>
+
+        <div class="title_div">
+            <h1>Image Enhancer</h1>
+            <p>Under develop model for enhancing low light and low resolution images. </p>
+        </div>        
+        <hr>
+        <div class="row main_div d-flex justify-content-center">
+
+            
+            <div class="col-sm-6 light_div">
+                <h4>Light Enhancer</h4>
+                <form method="post" enctype="multipart/form-data">
+                    {% csrf_token %}
+                    {{ light_form.as_p }}
+                    <input type="hidden" name="image_type" value="light"/>
+                    <button type="'submit" class="btn btn-info" >Enhance Image</button>
+                </form>
+                <br>
+                <p>Currently, This model is trained on some specific kind of low light images. Maybe this will not work as exected on other images.</p>
+                <hr>
+                <div class="row d-flex justify-content-center">
+                    <div class="col-sm-6">
+                        <ul style="list-style: none;">
+                            {% for url in image_dict.lowLightImage %}
+                                <li>
+                                    <div class="image_container">
+                                        <img src="{{ url }}" alt="connect" class="light_image" >
+                                    </div>
+                                </li>
+                            {% endfor %}
+                        </ul>
+                    </div>
+                    <div class="col-sm-6">
+                        <ul style="list-style: none;">
+                            {% for url in image_dict.highLightImage %}
+                                <li>
+                                    <div class="image_container">
+                                        <img src="{{ url }}" alt="connect" class="light_image">
+                                    </div>
+                                </li>
+                            {% endfor %}
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            
+            <div class="col-sm-6 resolution_div">
+                <h4>Resolution Enhancer</h4>
+                <form method="post" enctype="multipart/form-data">
+                    {% csrf_token %}
+                    {{ resolution_form.as_p }}
+                    <input type="hidden" name="image_type" value="resolution"/>
+                    <button type="'submit" class="btn btn-info">Enhance Image</button>
+                </form>
+                <br>
+                <p>Currently, This model is trained on some specific kind of low resolution images. Maybe this will not work as exected on other images.</p>
+                <hr>
+                <div class="row d-flex justify-content-center">
+                    <div class="col-sm-6">
+                        <ul style="list-style: none;">
+                            {% for url in image_dict.lowResolutionImage %}
+                                <li>
+                                    <div class="image_container">
+                                        <img src="{{ url }}" alt="connect" class="resolution_image">
+                                    </div>
+                                </li>
+                            {% endfor %}
+                        </ul>
+                    </div>
+                    <div class="col-sm-6">
+                        <ul style="list-style: none;">
+                            {% for url in image_dict.highResolutionImage %}
+                                <li>
+                                    <img src="{{ url }}" alt="connect" class="resolution_image" >
+                                </li>
+                            {% endfor %}
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            </div>
+        
+
+    </body>
+</html>
+
