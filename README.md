@@ -1,5 +1,5 @@
 # ImageEnhancerWeb
-ImageEnhancerWeb is a Convolutional Neural Network deployment on Django. It contain two model one enhance Low Light Image and other enhance Low Resolution Image.
+ImageEnhancerWeb is a Convolutional Neural Network deployment on Django. It contain two model one enhance Low Light Image and other enhance Low Resolution Image. Architecture is proposed by [Paper](https://arxiv.org/pdf/2003.06792v2.pdf)
 
 ## Dependencies
 `Django==4.0.6`
@@ -18,11 +18,13 @@ ImageEnhancerWeb is a Convolutional Neural Network deployment on Django. It cont
 <br>
 ![Light Enhancer Test Image](https://media.githubusercontent.com/media/riddhesh-jangid/ImageEnhancerWeb/main/media/images/780.png)![Light Enhancer Result Image](https://media.githubusercontent.com/media/riddhesh-jangid/ImageEnhancerWeb/main/media/images/780_processed.png)
 
-#### Light Enhancer Model Result on Test Images
-##### Model is working pretty well on Test Images. It is brighting up test images without distorting it.
+```
+Light Enhancer Model Result on Test Images
+- Model is working pretty well on Test Images. It is brighting up test images without distorting it.
 
-#### Light Enhancer Model Result on Other Images
-##### Model is not working that well on Other Images. It is brighting up images but also making some distortion.
+Light Enhancer Model Result on Other Images
+- Model is not working that well on Other Images. It is brighting up images but also making some distortion.
+```
 
 <hr>
 
@@ -35,8 +37,10 @@ ImageEnhancerWeb is a Convolutional Neural Network deployment on Django. It cont
 ![Light Enhancer Test Image](https://media.githubusercontent.com/media/riddhesh-jangid/ImageEnhancerWeb/main/media/images/13.png)![Light Enhancer Result Image](https://media.githubusercontent.com/media/riddhesh-jangid/ImageEnhancerWeb/main/media/images/13_processed.png)
 
 
-#### Resolution Enhancer Model Result on Test Images
-##### Model is working pretty well on Test Images. It is making test images more clear without distorting it.
+```
+Resolution Enhancer Model Result on Test Images
+- Model is working pretty well on Test Images. It is making test images more clear without distorting it.
 
-#### Resolution Enhancer Model Result on Other Images
-##### Model is not working that well on Other Images. In some case it is making Image clear but it is also distorting it.
+Resolution Enhancer Model Result on Other Images
+- Model is not working that well on Other Images. In some case it is making Image clear but it is also distorting it.
+```
