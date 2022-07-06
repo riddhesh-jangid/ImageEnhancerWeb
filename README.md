@@ -8,15 +8,33 @@ ImageEnhancerWeb is a Convolutional Neural Network deployment on Django. It cont
 `Pillow==9.2.0`
 `tensorflow==2.7.0`
 
+<hr>
 
 ## Light Enhancer Result
+
+![Light Enhancer Test Image](https://media.githubusercontent.com/media/riddhesh-jangid/ImageEnhancerWeb/main/result/778.png)![Light Enhancer Result Image](https://media.githubusercontent.com/media/riddhesh-jangid/ImageEnhancerWeb/main/result/778_processed.png)
+<br>
+![Light Enhancer Test Image](https://media.githubusercontent.com/media/riddhesh-jangid/ImageEnhancerWeb/main/result/111.png)![Light Enhancer Result Image](https://media.githubusercontent.com/media/riddhesh-jangid/ImageEnhancerWeb/main/result/111_processed.png)
+<br>
+![Light Enhancer Test Image](https://media.githubusercontent.com/media/riddhesh-jangid/ImageEnhancerWeb/main/result/780.png)![Light Enhancer Result Image](https://media.githubusercontent.com/media/riddhesh-jangid/ImageEnhancerWeb/main/result/780_processed.png)
+
 #### Light Enhancer Model Result on Test Images
 ##### Model is working pretty well on Test Images. It is brighting up test images without distorting it.
 
 #### Light Enhancer Model Result on Other Images
 ##### Model is not working that well on Other Images. It is brighting up images but also making some distortion.
 
+<hr>
+
 ## Resolution Enhancer Result
+
+![Light Enhancer Test Image](https://media.githubusercontent.com/media/riddhesh-jangid/ImageEnhancerWeb/main/result/7.png)![Light Enhancer Result Image](https://media.githubusercontent.com/media/riddhesh-jangid/ImageEnhancerWeb/main/result/7_processed.png)
+<br>
+![Light Enhancer Test Image](https://media.githubusercontent.com/media/riddhesh-jangid/ImageEnhancerWeb/main/result/5.png)![Light Enhancer Result Image](https://media.githubusercontent.com/media/riddhesh-jangid/ImageEnhancerWeb/main/result/5_processed.png)
+<br>
+![Light Enhancer Test Image](https://media.githubusercontent.com/media/riddhesh-jangid/ImageEnhancerWeb/main/result/13.png)![Light Enhancer Result Image](https://media.githubusercontent.com/media/riddhesh-jangid/ImageEnhancerWeb/main/result/13_processed.png)
+
+
 #### Resolution Enhancer Model Result on Test Images
 ##### Model is working pretty well on Test Images. It is making test images more clear without distorting it.
 
