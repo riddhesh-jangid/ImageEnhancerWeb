@@ -12,11 +12,11 @@ ImageEnhancerWeb is a Convolutional Neural Network deployment on Django. It cont
 
 ## Light Enhancer Result
 
-![Light Enhancer Test Image](https://media.githubusercontent.com/media/riddhesh-jangid/ImageEnhancerWeb/main/result/778.png)![Light Enhancer Result Image](https://media.githubusercontent.com/media/riddhesh-jangid/ImageEnhancerWeb/main/result/778_processed.png)
+![Light Enhancer Test Image](https://media.githubusercontent.com/media/riddhesh-jangid/ImageEnhancerWeb/main/media/images/778.png)![Light Enhancer Result Image](https://media.githubusercontent.com/media/riddhesh-jangid/ImageEnhancerWeb/main/media/images/778_processed.png)
 <br>
-![Light Enhancer Test Image](https://media.githubusercontent.com/media/riddhesh-jangid/ImageEnhancerWeb/main/result/111.png)![Light Enhancer Result Image](https://media.githubusercontent.com/media/riddhesh-jangid/ImageEnhancerWeb/main/result/111_processed.png)
+![Light Enhancer Test Image](https://media.githubusercontent.com/media/riddhesh-jangid/ImageEnhancerWeb/main/media/images/111.png)![Light Enhancer Result Image](https://media.githubusercontent.com/media/riddhesh-jangid/ImageEnhancerWeb/main/media/images/111_processed.png)
 <br>
-![Light Enhancer Test Image](https://media.githubusercontent.com/media/riddhesh-jangid/ImageEnhancerWeb/main/result/780.png)![Light Enhancer Result Image](https://media.githubusercontent.com/media/riddhesh-jangid/ImageEnhancerWeb/main/result/780_processed.png)
+![Light Enhancer Test Image](https://media.githubusercontent.com/media/riddhesh-jangid/ImageEnhancerWeb/main/media/images/780.png)![Light Enhancer Result Image](https://media.githubusercontent.com/media/riddhesh-jangid/ImageEnhancerWeb/main/media/images/780_processed.png)
 
 #### Light Enhancer Model Result on Test Images
 ##### Model is working pretty well on Test Images. It is brighting up test images without distorting it.
@@ -28,11 +28,11 @@ ImageEnhancerWeb is a Convolutional Neural Network deployment on Django. It cont
 
 ## Resolution Enhancer Result
 
-![Light Enhancer Test Image](https://media.githubusercontent.com/media/riddhesh-jangid/ImageEnhancerWeb/main/result/7.png)![Light Enhancer Result Image](https://media.githubusercontent.com/media/riddhesh-jangid/ImageEnhancerWeb/main/result/7_processed.png)
+![Light Enhancer Test Image](https://media.githubusercontent.com/media/riddhesh-jangid/ImageEnhancerWeb/main/media/images/7.png)![Light Enhancer Result Image](https://media.githubusercontent.com/media/riddhesh-jangid/ImageEnhancerWeb/main/media/images/7_processed.png)
 <br>
-![Light Enhancer Test Image](https://media.githubusercontent.com/media/riddhesh-jangid/ImageEnhancerWeb/main/result/5.png)![Light Enhancer Result Image](https://media.githubusercontent.com/media/riddhesh-jangid/ImageEnhancerWeb/main/result/5_processed.png)
+![Light Enhancer Test Image](https://media.githubusercontent.com/media/riddhesh-jangid/ImageEnhancerWeb/main/media/images/5.png)![Light Enhancer Result Image](https://media.githubusercontent.com/media/riddhesh-jangid/ImageEnhancerWeb/main/media/images/5_processed.png)
 <br>
-![Light Enhancer Test Image](https://media.githubusercontent.com/media/riddhesh-jangid/ImageEnhancerWeb/main/result/13.png)![Light Enhancer Result Image](https://media.githubusercontent.com/media/riddhesh-jangid/ImageEnhancerWeb/main/result/13_processed.png)
+![Light Enhancer Test Image](https://media.githubusercontent.com/media/riddhesh-jangid/ImageEnhancerWeb/main/media/images/13.png)![Light Enhancer Result Image](https://media.githubusercontent.com/media/riddhesh-jangid/ImageEnhancerWeb/main/media/images/13_processed.png)
 
 
 #### Resolution Enhancer Model Result on Test Images
