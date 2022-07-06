@@ -1,4 +1,4 @@
-# ImageEnhancerWeb
+# ImageEnhancerWeb :high_brightness:
 ImageEnhancerWeb is a Convolutional Neural Network deployment on Django. It contain two model one enhance Low Light Image and other enhance Low Resolution Image. Architecture is proposed by [Paper](https://arxiv.org/pdf/2003.06792v2.pdf)
 
 ## Dependencies
